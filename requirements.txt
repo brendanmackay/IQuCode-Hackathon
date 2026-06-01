@@ -1,6 +1,8 @@
 qiskit
 qiskit-aer
+qiskit-algorithms
 qiskit-ibm-runtime
+qiskit-machine-learning
 jupyterlab
 notebook
 ipykernel
@@ -10,3 +12,4 @@ numpy
 scipy
 pandas
 seaborn
+scikit-learn
