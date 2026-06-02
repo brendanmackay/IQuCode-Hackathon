@@ -82,7 +82,9 @@ def show_samples(images, labels, n_show=12, cols=6, save=None):
     fig.tight_layout()
     if save:
         fig.savefig(save, dpi=120, bbox_inches='tight')
-    return fig
+
+    plt.show()
+    # return fig
 
 
 # if __name__ == "__main__":
